@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,td{
+            border: 3px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width:100%;
+        }
+        td{
+            text-align: center;
+        }
+        th{
+            padding:10px;
+            color: darkblue;
+            background-color: bisque;
+        }
+        td{
+            text-align: center;
+            color: indigo;
+            font-family:cursive;
+        }
+        .name-in-td{
+            text-transform:lowercase;
+        }
+        .bg-change{
+            background-color:#d8d8d8;
+        }
+    </style>
+</head>
+<body>
+    <h2>Let's create a Tables</h2>
+    <table>
+        <tr>
+          <th>SNo.</th>
+          <th>Name</th>
+          <th>Ph No.</th>
+          <th>Insta ID</th>
+        </tr>
+        <tr class="bg-change">
+          <td >1</td>
+          <td class="name-in-td ">SAS</td>
+          <td>123</td>
+          <td>sas_qwe</td>
+        </tr>
+        <tr>
+            <td >2</td>
+            <td class="name-in-td">SA</td>
+            <td>12</td>
+            <td>sas_qw</td>
+          </tr>
+          <tr class="bg-change">
+            <td >3</td>
+            <td class="name-in-td ">sus</td>
+            <td>123</td>
+            <td>sas_qwe</td>
+          </tr>
+          <tr>
+              <td >4</td>
+              <td class="name-in-td">Ter</td>
+              <td>12</td>
+              <td>sas_qw</td>
+            </tr>
+    </table>
+</body>
+</html>
